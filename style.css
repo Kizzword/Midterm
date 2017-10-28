@@ -1,0 +1,52 @@
+#display {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:auto; 
+}
+
+#background {
+    position:relative;
+    width:100%;
+    height:300px;
+    background-image:url(img/bg1.jpg);
+    background-repeat:repeat;
+}
+
+#title {
+    position:absolute;
+    top:10%;
+    left:10%;
+    font-size:24px;
+    color:#FFFa92; 
+    border-bottom:solid 1px grey;
+}
+
+#desc {
+    position:absolute;
+    top:20%;
+    left:10%;
+    color:#FFFa92;
+}
+
+#controls {
+    position:fixed;
+    left:50%;
+    bottom:-120px;
+    margin-left:-80px;
+    width:80px;
+    transition:1s;
+}
+
+.textInput {
+    width:100%;
+    height:auto;
+    text-align:left; 
+}
+
+#menu {
+    width:100%;
+    height:auto;
+    text-align:center; 
+}
